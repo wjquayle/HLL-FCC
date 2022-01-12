@@ -1,0 +1,128 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/iconplay",
+      "Name": "Play Sound",
+      "States": [
+        {
+          "Image": "Images/sound",
+          "TitleAlignment": "bottom",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Play a sound from Soundpad.",
+      "UUID": "com.barraider.soundpadplay",
+      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadPlay.html"
+    },
+    {
+      "Icon": "Images/iconplayrand",
+      "Name": "Play Random Sound",
+      "States": [
+        {
+          "Image": "Images/soundrand",
+          "TitleAlignment": "bottom",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Play a random sound from Soundpad.",
+      "UUID": "com.barraider.soundpadplayrand",
+      "PropertyInspectorPath": "PropertyInspector/Soundpad/Soundpad.html"
+    },
+    {
+      "Icon": "Images/playpauseIcon",
+      "Name": "Pause/Unpause Sound",
+      "States": [
+        {
+          "Image": "Images/playpauseAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Pause/Unpause a sound",
+      "UUID": "com.barraider.soundpadpause",
+      "PropertyInspectorPath": "PropertyInspector/Soundpad/Soundpad.html"
+    },
+    {
+      "Icon": "Images/iconremove",
+      "Name": "Remove sound from Playlist",
+      "States": [
+        {
+          "Image": "Images/removeSound",
+          "TitleAlignment": "bottom",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Removes a sound from Soundpad at a specific index",
+      "UUID": "com.barraider.soundpadremove",
+      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadRemoveSound.html"
+    },
+    {
+      "Icon": "Images/iconstop",
+      "Name": "Stop",
+      "States": [
+        {
+          "Image": "Images/stop",
+          "TitleAlignment": "bottom",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Allows to stop the current playing sound in Soundpad.",
+      "UUID": "com.barraider.soundpadstop",
+      "PropertyInspectorPath": "PropertyInspector/Soundpad/Soundpad.html"
+    },
+    {
+      "Icon": "Images/iconrecord",
+      "Name": "Record PTT",
+      "States": [
+        {
+          "Image": "Images/recordptt",
+          "TitleAlignment": "bottom",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Records sound and creates a new Soundpad sound",
+      "UUID": "com.barraider.soundpadrecordptt",
+      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadRecordPTT.html"
+    },
+    {
+      "Icon": "Images/iconload",
+      "Name": "Load Sound List",
+      "States": [
+        {
+          "Image": "Images/load",
+          "TitleAlignment": "bottom",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Loads an existing Soundpad Sound List (*.spl) file",
+      "UUID": "com.barraider.soundpadloadsoundlist",
+      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadLoadSoundList.html"
+    }
+  ],
+  "Author": "BulletTooth Designs",
+  "Description": "Artillery elevation calculator for the game Hell Let Loose. Features ",
+  "Name": "HLL Fire Control Center",
+  "Icon": "Images/pluginIcon",
+  "URL": "",
+  "Version": "1.6",
+  "CodePath": "com.barraider.soundpad",
+  "Category": "Soundpad [BarRaider]",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.7"
+  }
+}
