@@ -1,17 +1,17 @@
 {
   "Actions": [
     {
-      "Icon": "Images/iconplay",
-      "Name": "Play Sound",
+      "Icon": "Images/actionClear",
+      "Name": "Clear entry",
       "States": [
         {
-          "Image": "Images/sound",
+          "Image": "Images/keyClear",
           "TitleAlignment": "bottom",
           "FontSize": "9"
         }
       ],
       "SupportedInMultiActions": true,
-      "Tooltip": "Play a sound from Soundpad.",
+      "Tooltip": "Clear previously ",
       "UUID": "com.barraider.soundpadplay",
       "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadPlay.html"
     },
