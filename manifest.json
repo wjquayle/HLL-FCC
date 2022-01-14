@@ -11,8 +11,8 @@
         }
       ],
       "SupportedInMultiActions": true,
-      "Tooltip": "Clear previously ",
-      "UUID": "com.barraider.soundpadplay",
+      "Tooltip": "Clear previously entered key or hold down to reset.",
+      "UUID": "com.btd.soundpadplay",
       "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadPlay.html"
     },
     {
