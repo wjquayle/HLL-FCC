@@ -2,7 +2,7 @@
   "Actions": [
     {
       "Icon": "Images/actionClear",
-      "Name": "Clear entry",
+      "Name": "Clear Range",
       "States": [
         {
           "Image": "Images/keyClear",
@@ -10,110 +10,80 @@
           "FontSize": "9"
         }
       ],
-      "SupportedInMultiActions": true,
+      "SupportedInMultiActions": false,
       "Tooltip": "Clear previously entered key or hold down to reset.",
-      "UUID": "com.btd.clear",
-      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadPlay.html"
+      "UUID": "com.btd.fccClear",
+      "PropertyInspectorPath": "PropertyInspector/FireControlCenter/fccClear.html"
     },
     {
-      "Icon": "Images/iconplayrand",
-      "Name": "Play Random Sound",
+      "Icon": "Images/actionElevation",
+      "Name": "Elevation Result",
       "States": [
         {
-          "Image": "Images/soundrand",
+          "Image": "Images/keyElevation",
           "TitleAlignment": "bottom",
           "FontSize": "9"
         }
       ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Play a random sound from Soundpad.",
-      "UUID": "com.barraider.soundpadplayrand",
-      "PropertyInspectorPath": "PropertyInspector/Soundpad/Soundpad.html"
+      "SupportedInMultiActions": false,
+      "Tooltip": "Displays artillery elevation.",
+      "UUID": "com.btd.fccelevation",
+      "PropertyInspectorPath": "PropertyInspector/FireControlCenter/fccElevation.html"
     },
     {
-      "Icon": "Images/playpauseIcon",
-      "Name": "Pause/Unpause Sound",
+      "Icon": "Images/actionEnter",
+      "Name": "Range Entry",
       "States": [
         {
-          "Image": "Images/playpauseAction",
+          "Image": "Images/keyEnter",
           "TitleAlignment": "bottom",
           "FontSize": "9"
         }
       ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Pause/Unpause a sound",
-      "UUID": "com.barraider.soundpadpause",
-      "PropertyInspectorPath": "PropertyInspector/Soundpad/Soundpad.html"
+      "SupportedInMultiActions": false,
+      "Tooltip": "Submit range entry",
+      "UUID": "com.btd.fccEnter",
+      "PropertyInspectorPath": "PropertyInspector/FireControlCenter/fccEnter.html"
     },
     {
-      "Icon": "Images/iconremove",
-      "Name": "Remove sound from Playlist",
+      "Icon": "Images/actionFaction",
+      "Name": "Toggle Faction",
       "States": [
         {
-          "Image": "Images/removeSound",
+          "Image": "Images/keyFacUSA",
           "TitleAlignment": "bottom",
           "FontSize": "9"
         }
       ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Removes a sound from Soundpad at a specific index",
-      "UUID": "com.barraider.soundpadremove",
-      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadRemoveSound.html"
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle team faction",
+      "UUID": "com.btd.fccFaction",
+      "PropertyInspectorPath": "PropertyInspector/FireControlCenter/fccFaction.html"
     },
     {
-      "Icon": "Images/iconstop",
-      "Name": "Stop",
+      "Icon": "Images/actionNum",
+      "Name": "Number",
       "States": [
         {
-          "Image": "Images/stop",
+          "Image": "Images/keyNumUSA0",
           "TitleAlignment": "bottom",
           "FontSize": "9"
         }
       ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Allows to stop the current playing sound in Soundpad.",
-      "UUID": "com.barraider.soundpadstop",
-      "PropertyInspectorPath": "PropertyInspector/Soundpad/Soundpad.html"
+      "SupportedInMultiActions": false,
+      "Tooltip": "Number entry",
+      "UUID": "com.btd.fccNum",
+      "PropertyInspectorPath": "PropertyInspector/FireControlCenter/fccNum.html"
     },
-    {
-      "Icon": "Images/iconrecord",
-      "Name": "Record PTT",
-      "States": [
-        {
-          "Image": "Images/recordptt",
-          "TitleAlignment": "bottom",
-          "FontSize": "9"
-        }
-      ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Records sound and creates a new Soundpad sound",
-      "UUID": "com.barraider.soundpadrecordptt",
-      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadRecordPTT.html"
-    },
-    {
-      "Icon": "Images/iconload",
-      "Name": "Load Sound List",
-      "States": [
-        {
-          "Image": "Images/load",
-          "TitleAlignment": "bottom",
-          "FontSize": "9"
-        }
-      ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Loads an existing Soundpad Sound List (*.spl) file",
-      "UUID": "com.barraider.soundpadloadsoundlist",
-      "PropertyInspectorPath": "PropertyInspector/Soundpad/SoundpadLoadSoundList.html"
-    }
   ],
   "Author": "BulletTooth Designs",
-  "Description": "Artillery elevation calculator for the game Hell Let Loose. Features ",
+  "Description": "Artillery elevation calculator for the game Hell Let Loose. Features built in keypad to enter range to calculate elevation and faction switch.",
   "Name": "HLL Fire Control Center",
-  "Icon": "Images/pluginIcon",
-  "URL": "",
-  "Version": "1.6",
-  "CodePath": "com.barraider.soundpad",
-  "Category": "Soundpad [BarRaider]",
+  "Icon": "Images/categoryIcon",
+  "URL": "https://github.com/BulletToothedGrin/HLL-FCC",
+  "Version": "1.0",
+  "CodePath": "com.btd.firecontrolcenter",
+  "Category": "HLL Fire Control Center",
   "CategoryIcon": "Images/categoryIcon",
   "OS": [
     {
