@@ -1,0 +1,23 @@
+function calculateElevation(range,isRussian) {
+    if (range >= 100 && range <= 1600) {
+        if(isRussian){
+            var elevation = (-16/75)*range+1141+1/3;
+            return elevation;
+        }else{
+            var elevation = (range-4224.25)/-4.21781;
+            return elevation;
+        }
+    } else {
+        return "Invalid range. Please enter a value between 100 and 1600 meters.";
+    }
+}
+
+while (true) {
+    var isRussian = confirm("Are you using Russian artillery?");
+    var range = prompt("Enter the range in meters (between 100 and 1600):");
+    if (range === null) {
+        break;
+    } else {
+        console.log("Elevation for artillery fire: " + calculateElevation(range,isRussian) + " degrees.");
+    }
+}
