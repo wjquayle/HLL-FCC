@@ -1,6 +1,6 @@
 // Initialize the variable with the starting value (800)
 let range = 800;
-let mil = 0;
+let mil = 812;
 let state = 1;
 const statesCount = 4;
 
@@ -9,7 +9,23 @@ const statesCount = 4;
 function calculateMil(state, range) {
   // Implement the calculation based on the current state
   // and the range value
-}
+  if (state == 1) {
+    //american state
+    mil = (1002-(range/4.225))
+  }
+  else if  (state == 2){
+    //german
+    mil = (1002-(range/4.225))
+  }
+  else if  (state == 3){
+    //soviet
+    mil = (1142-(range/4.615)
+  }
+  else if  (state == 4){
+    //UK
+    mil = (550-(A3/5.7692))
+  }
+
 
 function updateMil() {
   mil = calculateMil(state, range);
