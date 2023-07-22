@@ -1,4 +1,45 @@
-function fireControl(range
+// Initialize the variable with the starting value (800)
+let range = 800;
+let mil = 0;
+let state = 1;
+const statesCount = 4;
+
+// Define your calculation functions here
+// For example:
+function calculateMil(state, range) {
+  // Implement the calculation based on the current state
+  // and the range value
+}
+
+function updateMil() {
+  mil = calculateMil(state, range);
+}
+
+function handleButtonPress(buttonIndex) {
+  const increments = [1, 5, 10, 50, 100, 500, 1000];
+
+  if (buttonIndex < 7) {
+    // Positive values
+    range += increments[buttonIndex];
+  } else if (buttonIndex < 14) {
+    // Negative values
+    range -= increments[buttonIndex - 7];
+  } else if (buttonIndex === 14) {
+    // The 8 key, switch to the next state
+    state = (state % statesCount) + 1;
+  }
+
+  updateMil();
+  // Update the Stream Deck button graphics here based on the state and range values
+  // You'll need to use the Stream Deck SDK functions to update button images.
+}
+
+// Set up button event listeners
+streamDeck.on('down', (buttonIndex) => {
+  handleButtonPress(buttonIndex);
+});
+
+
 
 /* OLD CODE
 function calculateElevation(range,isRussian) {
