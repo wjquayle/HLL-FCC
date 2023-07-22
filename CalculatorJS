@@ -1,3 +1,6 @@
+function fireControl(range
+
+/* OLD CODE
 function calculateElevation(range,isRussian) {
     if (range >= 100 && range <= 1600) {
         if(isRussian){
@@ -21,3 +24,4 @@ while (true) {
         console.log("Elevation for artillery fire: " + calculateElevation(range,isRussian) + " degrees.");
     }
 }
+*/
